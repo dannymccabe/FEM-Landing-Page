@@ -15,7 +15,7 @@ to see it live 👉 ADD LINK
 See the designs in the design folder. 
 
 ### Desktop
-![Desktop view](./design/acive-states.jpg)
+![Desktop view](./design/active-states.jpg)
 
 ### Mobile 
 ![mobile view](./design/mobile-design.jpg)
