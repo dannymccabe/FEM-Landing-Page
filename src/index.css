@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Epilogue:wght@500;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+img {
+  max-width: 100%;
+}
+
+ul{
+  list-style: none;
+}
+
+body {
+  font-family: "Epilogue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.navbar {
+  position: absolute;
+  top: -100%;
+  right: 0;
+  z-index: -1;
+  bottom: 0;
+  width: 50%;
+  padding: 1rem;
+  transition: all 0.3s ease-in-out;
+}
+
+.navbar.open {
+  top: 5rem;
+  z-index: 99;
+  background-color: white;
+}
+
+.attribution {
+  font-size: 12px;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+.attribution a{
+  color: hsl(228, 45%, 44%);
+}
+
+@media (min-width: 1024px) {
+  .navbar {
+    position: relative;
+    top:0;
+    display: flex;
+    align-items: start;
+    justify-content: flex-start;
+    width: auto;
+    padding: 0;
+    z-index: auto;
+    background-color: transparent;
+
+  }
+
+  .navbar.opn {
+    top:0;
+    background-color: transparent;
+    z-index: auto;
+  }
+
+  .navbar div {
+    @apply mr-5;
+  }
+
+  .navbar div ul{
+    position: absolute;
+    width: 12rem;
+  }
+}
