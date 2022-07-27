@@ -1,8 +1,5 @@
-# FEM-Landing-Page
-Responsive Drop-Down Navbar built with React and Tailwind CSS
-
 # Landing Page from Front End Mentor
-I built this website as a portfolio showpiece. I used a variety of new tools and different techniques whereever I could. I hope you enjoy it. 
+I built this website as a portfolio showpiece. I used a variety of new tools and different techniques whereever I could. I hope you enjoy it. Responsive Drop-Down Navbar built with React and Tailwind CSS.
 
 to see it live 👉 (https://elaborate-kulfi-795c9a.netlify.app/)
 
